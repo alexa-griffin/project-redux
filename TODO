@@ -34,3 +34,11 @@
 - [x] do equipment cfg
 - [x] make map presets
 - [ ] do settings cfg
+
+- [ ] publish machine redux
+- [ ] publish logistic redux
+- [ ] publish equipment redux
+- [ ] publish module redux
+- [ ] publish module redux
+- [ ] publish core redux
+- [ ] publish storage redux
