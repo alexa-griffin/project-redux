@@ -26,6 +26,10 @@ data.raw["furnace"]["electric-furnace"].module_specification = {
   module_slots = 4,
   module_info_icon_shift = {0, 0.8}
 }
+data.raw["lab"]["lab"].module_specification = {
+  module_slots = 4,
+  module_info_icon_shift = {0, 0.9}
+}
 
 data.raw["assembling-machine"]["chemical-plant"].crafting_speed = 1
 data.raw["assembling-machine"]["oil-refinery"].crafting_speed = 1
