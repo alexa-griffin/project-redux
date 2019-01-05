@@ -1,0 +1,9 @@
+{
+ 	"name": "logistic-redux",
+ 	"version": "0.0.1",
+ 	"title": "Logistic Redux",
+ 	"author": "Alexa",
+ 	"factorio_version": "0.16",
+ 	"dependencies": ["base >= 0.16"],
+ 	"description": "a redux for the logistic systems in the game"
+}

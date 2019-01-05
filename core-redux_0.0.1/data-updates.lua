@@ -63,7 +63,7 @@ data.raw["recipe"]["rocket-fuel"].category = "chemistry"
 data.raw["recipe"]["science-pack-2"].enabled = false
 data.raw["recipe"]["science-pack-2"].ingredients = {
   { "assembling-machine-1", 1 },
-  { "transport-belt", 1 }
+  { "steel-plate", 1 }
 }
 
 -- tech updates
