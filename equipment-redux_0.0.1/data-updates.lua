@@ -4,8 +4,8 @@ data.raw["equipment-grid"]["small-equipment-grid"].height = redux.equipment.sett
 data.raw["equipment-grid"]["medium-equipment-grid"].width =  redux.equipment.settings.gridSize * 1 + 6
 data.raw["equipment-grid"]["medium-equipment-grid"].height = redux.equipment.settings.gridSize * 1 + 6
 
-data.raw["equipment-grid"]["large-equipment-grid"].width =  redux.equipment.settings.gridSize * 2 + 6
-data.raw["equipment-grid"]["large-equipment-grid"].height = redux.equipment.settings.gridSize * 2 + 6
+data.raw["equipment-grid"]["large-equipment-grid"].width =  redux.equipment.settings.gridSize * 2 + 4
+data.raw["equipment-grid"]["large-equipment-grid"].height = redux.equipment.settings.gridSize * 2 + 4
 
 data.raw["recipe"]["modular-armor"].ingredients = {
   { "engine-unit", 20 },
@@ -22,3 +22,7 @@ data.raw["recipe"]["power-armor-mk2"].ingredients = {
   { "low-density-structure", 10 },
   { "processing-unit", 100 },
 }
+
+data.raw["armor"]["modular-armor"].inventory_size_bonus = 10
+data.raw["armor"]["power-armor"].inventory_size_bonus = 30
+data.raw["armor"]["power-armor-mk2"].inventory_size_bonus = 50
