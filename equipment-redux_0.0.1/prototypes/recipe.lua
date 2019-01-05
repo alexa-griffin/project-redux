@@ -25,6 +25,7 @@ data:extend({
       { "processing-unit", 10 },
       { "electric-engine-unit", 30 },
       { "low-density-structure", 10 },
+      { "exoskeleton-equipment", 1 },
     },
     result = "exoskeleton-mk2-equipment"
   },
@@ -37,6 +38,7 @@ data:extend({
     ingredients =
     {
       {"processing-unit", 5},
+      {"night-vision-equipment", 1},
       {"low-density-structure", 10}
     },
     result = "night-vision-mk2-equipment"

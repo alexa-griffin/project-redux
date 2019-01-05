@@ -106,7 +106,10 @@ redux.lib.tech.addPrereq("rocket-silo", "rocket-structure")
 redux.lib.tech.removePack("logistic-system", "production-science-pack")
 redux.lib.tech.addPrereq("logistic-system", "avant-garde-science")
 
-redux.lib.tech.addPrereq("fusion-reactor-equipment", "avant-garde-science")
+if not redux.equipment then
+  redux.lib.tech.addPrereq("fusion-reactor-equipment", "avant-garde-science")
+end
+
 redux.lib.tech.addPrereq("personal-roboport-equipment-2", "avant-garde-science")
 redux.lib.tech.addPrereq("military-4", "avant-garde-science")
 
