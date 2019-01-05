@@ -15,10 +15,11 @@
 - [ ] try to make the rocket fuel icon not look like butt
 - [x] add rocket fuel to Kovarex
 - [x] do cfg file
-- [ ] figure out if green science is correct
+- [x] figure out if green science is correct
 - [ ] make machine mk2 graphics
 - [ ] standardize logistic level colors
-- [ ] make all the tech have standard prerequisites
-- [ ] figure out module stuffs
-- [ ] make utility lib
-- [ ] migrate existing data to util lib
+- [x] make all the tech have standard prerequisites
+- [x] figure out module stuffs
+- [x] make utility lib
+- [x] migrate existing data to util lib
+- [ ] figure out the module ordering
