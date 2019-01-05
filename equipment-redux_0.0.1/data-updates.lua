@@ -8,8 +8,8 @@ data.raw["equipment-grid"]["large-equipment-grid"].width =  redux.equipment.sett
 data.raw["equipment-grid"]["large-equipment-grid"].height = redux.equipment.settings.gridSize * 2 + 4
 
 if redux.equipment.roboportBuff then
-  data.raw["roboport-equipment"]["personal-roboport-equipment"]charging_station_count = 10
-  data.raw["roboport-equipment"]["personal-roboport-mk2-equipment"]charging_station_count = 25
+  data.raw["roboport-equipment"]["personal-roboport-equipment"].charging_station_count = 10
+  data.raw["roboport-equipment"]["personal-roboport-mk2-equipment"].charging_station_count = 25
 end
 
 -- recipe stuffs

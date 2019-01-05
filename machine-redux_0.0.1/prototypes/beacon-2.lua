@@ -47,7 +47,7 @@ data:extend({
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"production-science-pack", 1}
+        {"production-science-pack", 1},
         {"high-tech-science-pack", 1}
       },
       time = 30
@@ -71,7 +71,7 @@ data:extend({
     allowed_effects = {"consumption", "speed", "pollution"},
     base_picture =
     {
-      filename = "__machine/graphics/entity/beacon-2/beacon-2-base.png",
+      filename = "__machine-redux__/graphics/entity/beacon-2/beacon-2-base.png",
       width = 116,
       height = 93,
       shift = { 0.34375, 0.046875}
