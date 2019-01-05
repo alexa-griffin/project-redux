@@ -18,4 +18,7 @@
 - [ ] figure out if green science is correct
 - [ ] make machine mk2 graphics
 - [ ] standardize logistic level colors
-- [ ] make all the things have standard prerequisites
+- [ ] make all the tech have standard prerequisites
+- [ ] figure out module stuffs
+- [ ] make utility lib
+- [ ] migrate existing data to util lib

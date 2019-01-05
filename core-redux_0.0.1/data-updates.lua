@@ -66,26 +66,31 @@ data.raw["recipe"]["science-pack-2"].ingredients = {
 }
 
 -- tech updates
-data.raw["technology"]["kovarex-enrichment-process"].prerequisites = { "nuclear-power", "rocket-fuel" }
+redux.lib.tech.addPrereq("kovarex-enrichment-process", "rocket-fuel")
+redux.lib.tech.addPrereq("advanced-electronics-2", "sulfur-processing")
 
-data.raw["technology"]["advanced-electronics-2"].prerequisites = {
-  "advanced-electronics",
-  "sulfur-processing"
-}
+data.raw["technology"]["advanced-electronics-2"].effects = {
+  {
+    type = "unlock-recipe",
+    recipe = "processing-unit"
+  }
+},
+
+data.raw["technology"]["advanced-material-processing-2"].effects = {
+  {
+    type = "unlock-recipe",
+    recipe = "electric-furnace"
+  }
+},
+
 
 data.raw["technology"]["sulfur-processing"].prerequisites = { "advanced-oil-processing" }
-data.raw["technology"]["sulfur-processing"].unit = {
-  count = 200,
-  ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
-  time = 30
-}
 
-data.raw["technology"]["rocket-silo"].prerequisites = {
-  "advanced-electronics-2",
-  "rocket-speed-5",
-  "speed-module-3",
-  "productivity-module-3",
-  "effectivity-module-3",
-  "rocket-fuel",
-  "rocket-structure",
-}
+redux.lib.tech.addPack("sulfur-processing", "science-pack-3")
+
+redux.lib.tech.addPrereq("rocket-silo", "effectivity-module-3")
+redux.lib.tech.addPrereq("rocket-silo", "rocket-fuel")
+redux.lib.tech.addPrereq("rocket-silo", "rocket-structure")
+
+redux.lib.tech.removePack("logistic-system", "production-science-pack")
+redux.lib.tech.addPrereq("logistic-system", "avant-garde-science-pack")
