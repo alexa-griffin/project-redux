@@ -32,3 +32,5 @@ data.raw["assembling-machine"]["oil-refinery"].crafting_speed = 1
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 1
 data.raw["assembling-machine"]["assembling-machine-2"].crafting_speed = 1
 data.raw["assembling-machine"]["assembling-machine-3"].crafting_speed = 1.5
+
+data.raw["beacon"]["beacon"].energy_usage = "240kW"
