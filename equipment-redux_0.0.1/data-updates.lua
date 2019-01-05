@@ -15,10 +15,10 @@ data.raw["recipe"]["modular-armor"].ingredients = {
 data.raw["recipe"]["power-armor"].ingredients = {
   { "modular-armor", 1 },
   { "electric-engine-unit", 10 },
-  { "advanced-circuit", 40 },
+  { "advanced-circuit", 100 },
 }
 data.raw["recipe"]["power-armor-mk2"].ingredients = {
   { "power-armor", 1 },
   { "low-density-structure", 10 },
-  { "processing-unit", 40 },
+  { "processing-unit", 100 },
 }
