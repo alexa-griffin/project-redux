@@ -35,8 +35,15 @@
 - [x] make map presets
 - [ ] do settings cfg for equipment
 - [x] make beacon mk2 graphics
-- [ ] make mining drill mk2 graphics
-- [ ] make color scheme for inserters
+- [x] make mining drill mk2 graphics
+- [x] make color scheme for inserters
+- [x] express inserter - blue
+- [x] fast inserter - red
+- [x] long inserter - green
+- [x] filter inserter - purple
+- [x] stack inserter - color alt
+- [x] stack filter inserter - white stack
+
 
 - [ ] publish machine redux
 - [ ] publish logistic redux
