@@ -5,3 +5,7 @@ redux.equipment.settings = {
   gridSize = settings.startup["redux-equipment-size"].value,
   roboportBuff = settings.startup["redux-roboport-buff"].value
 }
+
+require("prototypes.equipment")
+require("prototypes.recipe")
+require("prototypes.technology")

@@ -24,6 +24,9 @@
 - [x] migrate existing data to util lib
 - [ ] figure out the module ordering
 - [x] do module cfg
-- [ ] make equipment stuffs
+- [x] make equipment stuffs
 - [ ] make belt speeds be 15 -> 30 -> 45 -> 60 & match inserters to that
 - [ ] make really good night vision equipment
+- [ ] make mk2 fusion reactors
+- [ ] make mk2 exoskeletons
+- [ ] change battery equipment icons
