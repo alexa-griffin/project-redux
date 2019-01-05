@@ -1,9 +1,9 @@
 {
  	"name": "machine-redux",
  	"version": "0.0.1",
- 	"title": "",
+ 	"title": "Machine Redux",
  	"author": "Alexa",
  	"factorio_version": "0.16",
- 	"dependencies": ["base >= 0.16"],
- 	"description": ""
+  "dependencies": ["base >= 0.16", "core-redux"],
+ 	"description": "A redux of the machines in the game"
 }
