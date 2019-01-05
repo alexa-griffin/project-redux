@@ -3,15 +3,15 @@ data.raw["recipe"]["assembling-machine-3"].ingredients = {
   { "assembling-machine-2", 2 }
 }
 
-redux.lib.tech.addPrereq("automation-2", "steel-processing")
-
-
 data.raw["recipe"]["assembling-machine-2"].normal.ingredients = {
   { "steel-plate", 2 },
   { "electronic-circuit", 4 },
   { "iron-gear-wheel", 2 },
   { "assembling-machine-1", 1 }
 }
+
+
+redux.lib.tech.addPrereq("automation-2", "steel-processing")
 
 data.raw["assembling-machine"]["chemical-plant"].module_specification = {
   module_slots = 4
