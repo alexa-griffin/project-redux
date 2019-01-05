@@ -2,16 +2,16 @@
 - [x] get science pack icons for core
 - [x] copy paste generator script
 - [x] generate core
-- [ ] migrate equipment
-- [ ] make module graphics
+- [x] migrate equipment
+- [x] make module graphics
 - [ ] figure out tech stuffs
 - [x] make rocket fuel graphics
 - [x] make science pack graphics
 - [x] make ore graphics
 - [x] make separate rocket fuel tech
-- [ ] make separate science tech
-- [ ] find different flying robot frame icon
-- [ ] make lds unlock with avant garde science
+- [x] make separate science tech
+- [x] find different flying robot frame icon
+- [x] make lds unlock with avant garde science
 - [ ] try to make the rocket fuel icon not look like butt
 - [x] add rocket fuel to Kovarex
 - [x] do cfg file

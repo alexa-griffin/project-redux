@@ -8,4 +8,5 @@ redux.equipment.settings = {
 
 require("prototypes.equipment")
 require("prototypes.recipe")
+require("prototypes.item")
 require("prototypes.technology")

@@ -21,7 +21,7 @@ data:extend({
       type = "electric",
       usage_priority = "primary-output"
     },
-    power = "1mW",
+    power = "1MW",
     categories = {"armor"}
   },
 
