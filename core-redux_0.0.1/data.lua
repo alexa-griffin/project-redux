@@ -8,7 +8,7 @@ redux.core.settings = {
 }
 
 -- functions
-require("functions.tech")
+require("functions.technology")
 
 -- prototypes
 require("prototypes.technology")

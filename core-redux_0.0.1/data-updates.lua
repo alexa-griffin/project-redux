@@ -74,14 +74,14 @@ data.raw["technology"]["advanced-electronics-2"].effects = {
     type = "unlock-recipe",
     recipe = "processing-unit"
   }
-},
+}
 
 data.raw["technology"]["advanced-material-processing-2"].effects = {
   {
     type = "unlock-recipe",
     recipe = "electric-furnace"
   }
-},
+}
 
 
 data.raw["technology"]["sulfur-processing"].prerequisites = { "advanced-oil-processing" }
@@ -94,3 +94,15 @@ redux.lib.tech.addPrereq("rocket-silo", "rocket-structure")
 
 redux.lib.tech.removePack("logistic-system", "production-science-pack")
 redux.lib.tech.addPrereq("logistic-system", "avant-garde-science-pack")
+
+redux.lib.tech.removePrereq("effect-transmission", "advanced-electronics-2")
+redux.lib.tech.addPrereq("effect-transmission", "production-science-pack")
+redux.lib.tech.removePack("effect-transmission", "high-tech-science-pack")
+redux.lib.tech.addPack("effect-transmission", "production-science-pack")
+
+redux.lib.tech.addPrereq("atomic-bomb", "rocket-silo")
+
+redux.lib.tech.removePack("effectivity-module-3", "high-tech-science-pack")
+redux.lib.tech.addPack("effectivity-module-3", "production-science-pack")
+redux.lib.tech.removePack("speed-module-3", "high-tech-science-pack")
+redux.lib.tech.addPack("speed-module-3", "production-science-pack")

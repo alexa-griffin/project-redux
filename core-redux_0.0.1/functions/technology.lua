@@ -26,7 +26,7 @@ function redux.lib.tech.removePrereq(tech, prereq)
   end
 end
 
-function zen.lib.tech.isPack(item)
+function redux.lib.tech.isPack(item)
   return data.raw.tool[item] ~= nil
 end
 
