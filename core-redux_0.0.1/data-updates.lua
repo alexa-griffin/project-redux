@@ -40,7 +40,6 @@ data.raw["recipe"]["production-science-pack"].ingredients = {
 
 data.raw["recipe"]["production-science-pack"].result_count = 3
 
-
 data.raw["recipe"]["high-tech-science-pack"].ingredients = {
   { "processing-unit", 2 },
   { "flying-robot-frame", 1 },
@@ -48,3 +47,13 @@ data.raw["recipe"]["high-tech-science-pack"].ingredients = {
 }
 
 data.raw["recipe"]["high-tech-science-pack"].result_count = 3
+
+data.raw["recipe"]["rocket-control-unit"].ingredients = {
+  { "speed-module", 1 },
+  { "effectivity-module", 1 },
+  { "productivity-module", 1 },
+}
+
+data.raw["recipe"]["rocket-fuel"].category = "chemistry"
+
+-- tech updates

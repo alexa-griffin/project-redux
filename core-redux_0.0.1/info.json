@@ -1,9 +1,9 @@
 {
  	"name": "core-redux",
  	"version": "0.0.1",
- 	"title": "",
+ 	"title": "Core Redux",
  	"author": "Alexa",
  	"factorio_version": "0.16",
  	"dependencies": ["base >= 0.16"],
- 	"description": ""
+ 	"description": "A redux of the game"
 }
