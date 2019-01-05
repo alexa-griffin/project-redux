@@ -64,7 +64,7 @@ data:extend({
     {
       {
         type = "unlock-recipe",
-        recipe = "high-tech-science-pack"
+        recipe = "automation-science-pack"
       }
     },
     prerequisites = { "automation", "steel-processing" },

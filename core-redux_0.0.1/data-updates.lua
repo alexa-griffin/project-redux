@@ -86,6 +86,16 @@ data.raw["technology"]["advanced-material-processing-2"].effects = {
 
 data.raw["technology"]["sulfur-processing"].prerequisites = { "advanced-oil-processing" }
 
+redux.lib.tech.addPrereq("landfill", "automation-science")
+redux.lib.tech.addPrereq("toolbelt", "automation-science")
+redux.lib.tech.addPrereq("military-2", "automation-science")
+redux.lib.tech.addPrereq("engine", "automation-science")
+redux.lib.tech.addPrereq("gun-turret-damage-1", "automation-science")
+redux.lib.tech.addPrereq("circuit-network", "automation-science")
+redux.lib.tech.addPrereq("advanced-matierial-processing", "automation-science")
+redux.lib.tech.addPrereq("logistics-2", "automation-science")
+
+
 redux.lib.tech.addPack("sulfur-processing", "science-pack-3")
 
 redux.lib.tech.addPrereq("rocket-silo", "effectivity-module-3")
@@ -93,10 +103,13 @@ redux.lib.tech.addPrereq("rocket-silo", "rocket-fuel")
 redux.lib.tech.addPrereq("rocket-silo", "rocket-structure")
 
 redux.lib.tech.removePack("logistic-system", "production-science-pack")
-redux.lib.tech.addPrereq("logistic-system", "avant-garde-science-pack")
+redux.lib.tech.addPrereq("logistic-system", "avant-garde-science")
+
+redux.lib.tech.addPrereq("portale-fusion-reactor", "avant-garde-science")
+redux.lib.tech.addPrereq("personal-roboport-2", "avant-garde-science")
 
 redux.lib.tech.removePrereq("effect-transmission", "advanced-electronics-2")
-redux.lib.tech.addPrereq("effect-transmission", "production-science-pack")
+redux.lib.tech.addPrereq("effect-transmission", "production-science")
 redux.lib.tech.removePack("effect-transmission", "high-tech-science-pack")
 redux.lib.tech.addPack("effect-transmission", "production-science-pack")
 
@@ -104,5 +117,13 @@ redux.lib.tech.addPrereq("atomic-bomb", "rocket-silo")
 
 redux.lib.tech.removePack("effectivity-module-3", "high-tech-science-pack")
 redux.lib.tech.addPack("effectivity-module-3", "production-science-pack")
+redux.lib.tech.addPrereq("effectivity-module-3", "production-science")
+
 redux.lib.tech.removePack("speed-module-3", "high-tech-science-pack")
 redux.lib.tech.addPack("speed-module-3", "production-science-pack")
+redux.lib.tech.addPrereq("speed-module-3", "production-science")
+
+redux.lib.tech.addPrereq("nuclear-fuel-reprocessing", "production-science")
+redux.lib.tech.addPrereq("kovarex-enrichment-processing", "production-science")
+
+redux.lib.tech.removePack("kovarex-enrichment-processing", "high-tech-science-pack")
