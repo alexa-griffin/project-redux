@@ -45,6 +45,29 @@ data.raw["recipe"]["exoskeleton-equipment"].ingredients = {
   { "steel-plate", 20 }
 }
 
+-- equipment stuffs
+data.raw["battery-equipment"]["battery-equipment"].shape = {
+  width = 2,
+  height = 2,
+  type = "full"
+}
+data.raw["battery-equipment"]["battery-equipment"].sprite = {
+  filename = "__equipment-redux__/graphics/equipment/battery-equipment.png",
+  width = 64,
+  height = 64,
+  priority = "medium"
+}
+data.raw["battery-equipment"]["battery-mk2-equipment"].shape = {
+  width = 2,
+  height = 3,
+  type = "full"
+}
+data.raw["battery-equipment"]["battery-mk2-equipment"].sprite = {
+  filename = "__equipment-redux__/graphics/equipment/battery-mk2-equipment.png",
+  width = 64,
+  height = 107,
+  priority = "medium"
+}
 
 -- tech stuff
 redux.lib.tech.removePack("fusion-reactor-equipment", "high-tech-science-pack")
