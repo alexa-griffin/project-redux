@@ -5,5 +5,5 @@
  	"author": "Alexa",
  	"factorio_version": "0.16",
  	"dependencies": ["base >= 0.16", "core-redux"],
- 	"description": "A redux of the modules game"
+ 	"description": "A redux of the modules in the game"
 }
