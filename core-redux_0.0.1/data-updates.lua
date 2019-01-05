@@ -17,6 +17,9 @@ if redux.core.settings.newOreIcons then
   data.raw["item"]["coal"].dark_background_icon = "__core-redux__/graphics/icons/coal-dark-background.png"
 end
 
+data.raw["item"]["flying-robot-frame"].icon = "__core-redux__/graphics/icons/flying-robot-frame.png"
+
+
 -- recipe updates
 data.raw["recipe"]["science-pack-3"].ingredients = {
   { "advanced-circuit", 3 },
