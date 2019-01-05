@@ -67,6 +67,30 @@ data:extend({
         recipe = "high-tech-science-pack"
       }
     },
+    prerequisites = { "automation", "steel-processing" },
+    unit =
+    {
+      count = 50,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+      },
+      time = 30
+    },
+    order = "e-h"
+  },
+  {
+    type = "technology",
+    name = "avant-garde-science",
+    icon_size = 128,
+    icon = "__core-redux__/graphics/technology/avant-garde-science.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "high-tech-science-pack"
+      }
+    },
     prerequisites = {"advanced-electronics-2", "rocket-structure", "robotics"},
     unit =
     {

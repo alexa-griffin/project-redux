@@ -56,6 +56,12 @@ data.raw["recipe"]["rocket-control-unit"].ingredients = {
 
 data.raw["recipe"]["rocket-fuel"].category = "chemistry"
 
+data.raw["recipe"]["science-pack-2"].enabled = false
+data.raw["recipe"]["science-pack-2"].ingredients = {
+  { "assembling-machine-1", 1 },
+  { "transport-belt", 1 }
+}
+
 -- tech updates
 data.raw["technology"]["kovarex-enrichment-process"].prerequisites = { "nuclear-power", "rocket-fuel" }
 
@@ -70,7 +76,6 @@ data.raw["technology"]["sulfur-processing"].unit = {
   ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
   time = 30
 }
-
 
 data.raw["technology"]["rocket-silo"].prerequisites = {
   "advanced-electronics-2",
