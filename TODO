@@ -35,11 +35,8 @@
 - [x] make map presets
 - [ ] do settings cfg for equipment
 - [x] make beacon mk2 graphics
-- [x] make oil refinery mk2 graphics
-- [x] make chem plant mk2 graphics
-- [ ] make centrifuge mk2 graphics
 - [ ] make mining drill mk2 graphics
-
+- [ ] make color scheme for inserters
 
 - [ ] publish machine redux
 - [ ] publish logistic redux
