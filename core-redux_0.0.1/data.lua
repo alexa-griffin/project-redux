@@ -12,3 +12,4 @@ require("functions.technology")
 
 -- prototypes
 require("prototypes.technology")
+require("prototypes.map-gen")
