@@ -124,7 +124,12 @@ redux.lib.tech.removePack("speed-module-3", "high-tech-science-pack")
 redux.lib.tech.addPack("speed-module-3", "production-science-pack")
 redux.lib.tech.addPrereq("speed-module-3", "production-science")
 
-redux.lib.tech.addPrereq("nuclear-fuel-reprocessing", "production-science")
-redux.lib.tech.addPrereq("kovarex-enrichment-processing", "production-science")
+redux.lib.tech.addPrereq("productivity-module-3", "production-science")
 
-redux.lib.tech.removePack("kovarex-enrichment-processing", "high-tech-science-pack")
+redux.lib.tech.addPrereq("nuclear-fuel-reprocessing", "production-science")
+redux.lib.tech.addPrereq("coal-liquefaction", "production-science")
+
+redux.lib.tech.addPrereq("kovarex-enrichment-process", "production-science")
+redux.lib.tech.removePack("kovarex-enrichment-process", "high-tech-science-pack")
+
+redux.lib.tech.addPrereq("power-armor-2", "avant-garde-science")
