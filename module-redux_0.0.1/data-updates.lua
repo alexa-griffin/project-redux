@@ -2,18 +2,57 @@
 data.raw["recipe"]["speed-module"] = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
-  {"speed-module-0", 5},
+  {"speed-module-0", 3},
 }
 data.raw["recipe"]["productivity-module"] = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
-  {"productivity-module-0", 5},
+  {"productivity-module-0", 3},
 }
 data.raw["recipe"]["effectivity-module"] = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
-  {"effectivity-module-0", 5},
+  {"effectivity-module-0", 3},
 }
+
+data.raw["recipe"]["speed-module-2"] = {
+  {"advanced-circuit", 5},
+  {"processing-unit", 5},
+  {"speed-module", 4},
+}
+data.raw["recipe"]["productivity-module-2"] = {
+  {"advanced-circuit", 5},
+  {"processing-unit", 5},
+  {"productivity-module", 4},
+}
+data.raw["recipe"]["effectivity-module-2"] = {
+  {"advanced-circuit", 5},
+  {"processing-unit", 5},
+  {"effectivity-module", 4},
+}
+
+data.raw["recipe"]["speed-module-3"] = {
+  { "advanced-circuit", 5 },
+  { "processing-unit", 5 },
+  { type = "fluid", name = "sulfuric-acid", amount = 20 },
+  { "speed-module-2", 5 },
+}
+data.raw["recipe"]["productivity-module-3"] = {
+  { "advanced-circuit", 5 },
+  { "processing-unit", 5 },
+  { type = "fluid", name = "sulfuric-acid", amount = 20 },
+  { "productivity-module-2", 5 },
+}
+data.raw["recipe"]["effectivity-module-3"] = {
+  { "advanced-circuit", 5 },
+  { "processing-unit", 5 },
+  { type = "fluid", name = "sulfuric-acid", amount = 20 },
+  { "effectivity-module-2", 5 },
+}
+data.raw["recipe"]["speed-module-3"].category = "crafting-with-fluid"
+data.raw["recipe"]["productivity-module-3"].category = "crafting-with-fluid"
+data.raw["recipe"]["effectivity-module-3"].category = "crafting-with-fluid"
+
 
 -- module updates
 data.raw["recipe"]["speed-module"].effect =   { speed = {bonus = 0.3}, consumption = {bonus = 0.6}}
