@@ -82,7 +82,7 @@ data.raw["technology"]["rocket-silo"].prerequisites = {
   "rocket-speed-5",
   "speed-module-3",
   "productivity-module-3",
-  "effectivity-module-3"
+  "effectivity-module-3",
   "rocket-fuel",
   "rocket-structure",
 }

@@ -57,9 +57,9 @@ data:extend({
 
   {
     type = "technology",
-    name = "avant-garde-science",
+    name = "automation-science",
     icon_size = 128,
-    icon = "__core-redux__/graphics/technology/avant-garde-science.png",
+    icon = "__core-redux__/graphics/technology/automation-science.png",
     effects =
     {
       {
@@ -117,7 +117,7 @@ data:extend({
         recipe = "production-science-pack"
       }
     },
-    prerequisites = {"advanced-material-processing-2", "railway", "productivity-science-pack"},
+    prerequisites = {"advanced-material-processing-2", "railway", "productivity-module"},
     unit =
     {
       count = 300,
