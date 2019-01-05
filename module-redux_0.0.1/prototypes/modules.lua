@@ -16,7 +16,7 @@ data:extend({
   },
   {
     type = "module",
-    name = "effectivity-module",
+    name = "effectivity-module-0",
     localised_description = {"item-description.effectivity-module"},
     icon = "__module-redux__/graphics/icons/effectivity-module-0.png",
     icon_size = 32,
@@ -34,7 +34,7 @@ data:extend({
     type = "module",
     name = "productivity-module-0",
     localised_description = {"item-description.productivity-module"},
-    icon = "__base__/graphics/icons/productivity-module-0.png",
+    icon = "__module-redux__/graphics/icons/productivity-module-0.png",
     icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "module",

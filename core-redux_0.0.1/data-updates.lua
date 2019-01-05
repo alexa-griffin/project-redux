@@ -55,6 +55,7 @@ data.raw["recipe"]["rocket-control-unit"].ingredients = {
   { "speed-module", 1 },
   { "effectivity-module", 1 },
   { "productivity-module", 1 },
+  { "processing-unit", 2 },
 }
 
 data.raw["recipe"]["rocket-fuel"].category = "chemistry"
