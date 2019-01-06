@@ -1,4 +1,4 @@
-function inserter(name, icon, energy, pickup_position, insert_position, speed, stack, extension_speed, rotation_speed, order)
+function inserter(name, icon, base, hand, energy, pickup_position, insert_position, speed, stack, extension_speed, rotation_speed, order)
   data:extend({
     {
       type = "inserter",
@@ -75,12 +75,12 @@ function inserter(name, icon, energy, pickup_position, insert_position, speed, s
       },
       hand_closed_picture =
       {
-        filename = "__logistic-redux__/graphics/inserters/" + hand + "-hand-closed.png",
+        filename = "__logistic-redux__/graphics/inserters/" .. hand .. "-hand-closed.png",
         priority = "extra-high",
         width = 18,
         height = 41,
         hr_version = {
-          filename = "__logistic-redux__/graphics/inserters/hr-" + hand + "-hand-closed.png",
+          filename = "__logistic-redux__/graphics/inserters/hr-" .. hand .. "-hand-closed.png",
           priority = "extra-high",
           width = 72,
           height = 164,
@@ -89,12 +89,12 @@ function inserter(name, icon, energy, pickup_position, insert_position, speed, s
       },
       hand_open_picture =
       {
-        filename = "__logistic-redux__/graphics/inserters/" + hand + "-hand-open.png",
+        filename = "__logistic-redux__/graphics/inserters/" .. hand .. "-hand-open.png",
         priority = "extra-high",
         width = 18,
         height = 41,
         hr_version = {
-          filename = "__logistic-redux__/graphics/inserters/hr-" + hand + "-hand-open.png",
+          filename = "__logistic-redux__/graphics/inserters/hr-" .. hand .. "-hand-open.png",
           priority = "extra-high",
           width = 72,
           height = 164,
@@ -103,12 +103,12 @@ function inserter(name, icon, energy, pickup_position, insert_position, speed, s
       },
       hand_base_shadow =
       {
-        filename = "__logistic-redux__/graphics/inserters/inserter-hand-base-shadow.png"
+        filename = "__logistic-redux__/graphics/inserters/inserter-hand-base-shadow.png",
         priority = "extra-high",
         width = 8,
         height = 34,
         hr_version = {
-          filename = "__logistic-redux__/graphics/inserters/hr-inserter-hand-base-shadow.png"
+          filename = "__logistic-redux__/graphics/inserters/hr-inserter-hand-base-shadow.png",
           priority = "extra-high",
           width = 32,
           height = 132,
@@ -178,17 +178,45 @@ function inserter(name, icon, energy, pickup_position, insert_position, speed, s
       place_result = name,
       stack_size = 50
     },
+    { -- dummy recipe
+      type = "recipe",
+      name = name,
+      energy_required = 3,
+      ingredients =
+      {
+        {"copper-plate", 1}
+      },
+      result = name
+    },
   })
 end
 
 inserter(
   "fast-long-inserter",
   "__base__/graphics/icons/inserter.png",
+  "long-inserter",
+  "long-inserter",
   7000,
   {0, -2},
   {0, 2.2},
   "fast",
+  false,
   0.07,
   0.04,
-  "a-a"
+  "b-b"
+)
+
+inserter(
+  "express-inserter",
+  "__base__/graphics/icons/inserter.png",
+  "long-inserter",
+  "long-inserter",
+  12000,
+  {0, -1},
+  {0, 1.2},
+  "express",
+  false,
+  0.1,
+  0.06,
+  "b-a"
 )

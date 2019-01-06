@@ -6,3 +6,4 @@ redux.logistics.settings = {
 }
 
 require("prototypes.item-groups")
+require("prototypes.inserter")

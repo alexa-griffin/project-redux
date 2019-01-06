@@ -44,3 +44,23 @@ data.raw["item"]["stack-filter-inserter"].subgroup = "fast-logistics"
 data.raw["item"]["express-transport-belt"].subgroup = "express-logistics"
 data.raw["item"]["express-underground-belt"].subgroup = "express-logistics"
 data.raw["item"]["express-splitter"].subgroup = "express-logistics"
+
+-- order updates
+data.raw["item"]["transport-belt"].order = "a-a"
+data.raw["item"]["underground-belt"].order = "a-b"
+data.raw["item"]["splitter"].order = "a-c"
+data.raw["item"]["burner-inserter"].order = "b-a"
+data.raw["item"]["inserter"].order = "b-b"
+data.raw["item"]["long-handed-inserter"].order = "b-c"
+
+data.raw["item"]["fast-transport-belt"].order = "a-a"
+data.raw["item"]["fast-underground-belt"].order = "a-b"
+data.raw["item"]["fast-splitter"].order = "a-c"
+data.raw["item"]["fast-inserter"].order = "b-a"
+data.raw["item"]["filter-inserter"].order = "b-c"
+data.raw["item"]["stack-inserter"].order = "b-d"
+data.raw["item"]["stack-filter-inserter"].order = "b-r"
+
+data.raw["item"]["express-transport-belt"].order = "a-a"
+data.raw["item"]["express-underground-belt"].order = "a-b"
+data.raw["item"]["express-splitter"].order = "a-c"
