@@ -26,17 +26,20 @@ if redux.logistics.settings.highSpeed then
 end
 
 -- item group updates
-data.raw["item"]["transport-belt"].subgroup = "basic-logistics"
-data.raw["item"]["underground-belt"].subgroup = "basic-logistics"
-data.raw["item"]["splitter"].subgroup = "basic-logistics"
-data.raw["item"]["burner-inserter"].subgroup = "basic-logistics"
-data.raw["item"]["inserter"].subgroup = "basic-logistics"
-data.raw["item"]["long-handed-inserter"].subgroup = "basic-logistics"
+data.raw["item"]["transport-belt"].subgroup = "logistics"
+data.raw["item"]["underground-belt"].subgroup = "logistics"
+data.raw["item"]["splitter"].subgroup = "logistics"
+data.raw["item"]["burner-inserter"].subgroup = "logistics"
+data.raw["item"]["inserter"].subgroup = "logistics"
+data.raw["item"]["long-handed-inserter"].subgroup = "logistics"
 
 data.raw["item"]["fast-transport-belt"].subgroup = "fast-logistics"
 data.raw["item"]["fast-underground-belt"].subgroup = "fast-logistics"
 data.raw["item"]["fast-splitter"].subgroup = "fast-logistics"
 data.raw["item"]["fast-inserter"].subgroup = "fast-logistics"
+data.raw["item"]["filter-inserter"].subgroup = "fast-logistics"
+data.raw["item"]["stack-inserter"].subgroup = "fast-logistics"
+data.raw["item"]["stack-filter-inserter"].subgroup = "fast-logistics"
 
 data.raw["item"]["express-transport-belt"].subgroup = "express-logistics"
 data.raw["item"]["express-underground-belt"].subgroup = "express-logistics"

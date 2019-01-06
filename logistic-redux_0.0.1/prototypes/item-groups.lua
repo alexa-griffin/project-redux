@@ -1,7 +1,7 @@
 data:extend({
   {
     type = "item-subgroup",
-    name = "basic-logistics",
+    name = "logistics",
     group = "logistics",
     order = "b-a"
   },
