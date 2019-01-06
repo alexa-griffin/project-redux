@@ -1,10 +1,12 @@
-function inserter(name, icon, base, hand, energy, pickup_position, insert_position, speed, stack, extension_speed, rotation_speed, order)
+function inserter(name, icon, base, hand, energy, pickup_position, insert_position, speed, stack, filter, extension_speed, rotation_speed, order)
   data:extend({
     {
       type = "inserter",
       name = name,
       icon = icon,
       icon_size = 32,
+      stack = stack,
+      filter_count = filter,
       flags = {"placeable-neutral", "placeable-player", "player-creation"},
       minable = {hardness = 0.2, mining_time = 0.5, result = name},
       max_health = 200,
@@ -201,6 +203,7 @@ inserter(
   {0, 2.2},
   "fast",
   false,
+  nil,
   0.07,
   0.04,
   "b-b"
@@ -209,13 +212,30 @@ inserter(
 inserter(
   "express-inserter",
   "__base__/graphics/icons/inserter.png",
-  "long-inserter",
-  "long-inserter",
+  "express-inserter",
+  "express-inserter",
   12000,
   {0, -1},
   {0, 1.2},
   "express",
   false,
+  nil,
+  0.1,
+  0.06,
+  "b-a"
+)
+
+inserter(
+  "express-filter-inserter",
+  "__base__/graphics/icons/inserter.png",
+  "filter-inserter",
+  "filter-inserter",
+  12000,
+  {0, -1},
+  {0, 1.2},
+  "express",
+  false,
+  nil,
   0.1,
   0.06,
   "b-a"
