@@ -48,7 +48,9 @@
 - [x] express-stack-inserter
 - [x] express-stack-filter-inserter
 - [x] express-long-inserter
-- [ ] make inserter icons
+- [x] make inserter icons
+- [ ] do cfg for logistics
+- [ ] figure out recipes for inserters
 
 
 - [ ] publish machine redux
