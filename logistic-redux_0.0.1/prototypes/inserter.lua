@@ -180,16 +180,7 @@ function inserter(name, icon, base, hand, energy, pickup_position, insert_positi
       place_result = name,
       stack_size = 50
     },
-    { -- dummy recipe
-      type = "recipe",
-      name = name,
-      energy_required = 3,
-      ingredients =
-      {
-        {"copper-plate", 1}
-      },
-      result = name
-    },
+    
   })
 end
 

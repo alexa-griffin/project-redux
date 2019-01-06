@@ -1,8 +1,13 @@
 -- recipe updates
-data.raw["recipe"]["science-pack-3"].ingredients = {
-  { "advanced-circuit", 3 },
-  { "engine-unit", 2 },
-  { "solid-fuel", 1 }
+data.raw["recipe"]["stack-inserter"].ingredients = {
+  { "electronic-circuit", 15 },
+  { "iron-gear-wheel", 15 },
+  { "fast-inserter", 1 }
+}
+
+data.raw["recipe"]["stack-filter-inserter"].ingredients = {
+  { "advanced-circuit", 5 },
+  { "stacl-inserter", 1 }
 }
 
 -- thanks to bob
