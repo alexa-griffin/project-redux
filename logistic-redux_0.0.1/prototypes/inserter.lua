@@ -196,7 +196,7 @@ end
 -- fast inserters
 inserter(
   "fast-long-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/fast-long-inserter.png",
   "long-inserter",
   "long-inserter",
   7000,
@@ -213,7 +213,7 @@ inserter(
 -- express inserters
 inserter(
   "express-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/express-inserter.png",
   "express-inserter",
   "express-inserter",
   12000,
@@ -229,7 +229,7 @@ inserter(
 
 inserter(
   "express-long-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/express-long-inserter.png",
   "long-inserter",
   "long-inserter",
   12000,
@@ -245,7 +245,7 @@ inserter(
 
 inserter(
   "express-filter-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/express-filter-inserter.png",
   "filter-inserter",
   "filter-inserter",
   12000,
@@ -261,7 +261,7 @@ inserter(
 
 inserter(
   "express-stack-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/express-stack-inserter.png",
   "stack-inserter",
   "stack-inserter",
   12000,
@@ -276,7 +276,7 @@ inserter(
 )
 inserter(
   "express-stack-filter-inserter",
-  "__base__/graphics/icons/inserter.png",
+  "__logistic-redux__/graphics/icons/express-stack-filter-inserter.png",
   "stack-inserter",
   "stack-inserter",
   12000,

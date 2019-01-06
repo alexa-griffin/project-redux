@@ -4,7 +4,7 @@
 - [x] generate core
 - [x] migrate equipment
 - [x] make module graphics
-- [ ] figure out tech stuffs
+- [x] figure out tech stuffs
 - [x] make rocket fuel graphics
 - [x] make science pack graphics
 - [x] make ore graphics
@@ -16,8 +16,8 @@
 - [x] add rocket fuel to Kovarex
 - [x] do cfg file
 - [x] figure out if green science is correct
-- [ ] make machine mk2 graphics
-- [ ] standardize logistic level colors
+- [x] make machine mk2 graphics
+- [x] standardize logistic level colors
 - [x] make all the tech have standard prerequisites
 - [x] figure out module stuffs
 - [x] make utility lib
@@ -25,7 +25,7 @@
 - [ ] figure out the module ordering
 - [x] do module cfg
 - [x] make equipment stuffs
-- [ ] make belt speeds be 15 -> 30 -> 45 -> 60 & match inserters to that
+- [x] make belt speeds be 15 -> 30 -> 45 -> 60 & match inserters to that
 - [x] make really good night vision equipment
 - [x] make mk2 fusion reactors
 - [x] make mk2 exoskeletons
@@ -43,12 +43,12 @@
 - [x] filter inserter - purple
 - [x] stack inserter - color alt
 - [x] stack filter inserter - white stack
-
 - [x] express-inserter
 - [x] express-filter-inserter
 - [x] express-stack-inserter
 - [x] express-stack-filter-inserter
 - [x] express-long-inserter
+- [ ] make inserter icons
 
 
 - [ ] publish machine redux
