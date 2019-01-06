@@ -79,12 +79,12 @@ function inserter(name, icon, base, hand, energy, pickup_position, insert_positi
       {
         filename = "__logistic-redux__/graphics/inserters/" .. hand .. "-hand-closed.png",
         priority = "extra-high",
-        width = 18,
+        width = not stack and 18 or 24,
         height = 41,
         hr_version = {
           filename = "__logistic-redux__/graphics/inserters/hr-" .. hand .. "-hand-closed.png",
           priority = "extra-high",
-          width = 72,
+          width = not stack and 72 or 100,
           height = 164,
           scale = 0.25
         }
@@ -93,12 +93,12 @@ function inserter(name, icon, base, hand, energy, pickup_position, insert_positi
       {
         filename = "__logistic-redux__/graphics/inserters/" .. hand .. "-hand-open.png",
         priority = "extra-high",
-        width = 18,
+        width = not stack and 18 or 32,
         height = 41,
         hr_version = {
           filename = "__logistic-redux__/graphics/inserters/hr-" .. hand .. "-hand-open.png",
           priority = "extra-high",
-          width = 72,
+          width = not stack and 72 or 130,
           height = 164,
           scale = 0.25
         }
@@ -277,8 +277,8 @@ inserter(
 inserter(
   "express-stack-filter-inserter",
   "__logistic-redux__/graphics/icons/express-stack-filter-inserter.png",
-  "stack-inserter",
-  "stack-inserter",
+  "stack-filter-inserter",
+  "stack-filter-inserter",
   12000,
   {0, -1},
   {0, 1.2},
