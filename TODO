@@ -44,11 +44,11 @@
 - [x] stack inserter - color alt
 - [x] stack filter inserter - white stack
 
-- [ ] express-inserter
-- [ ] express-filter-inserter
-- [ ] express-stack-inserter
-- [ ] express-stack-filter-inserter
-- [ ] express-long-inserter
+- [x] express-inserter
+- [x] express-filter-inserter
+- [x] express-stack-inserter
+- [x] express-stack-filter-inserter
+- [x] express-long-inserter
 
 
 - [ ] publish machine redux

@@ -193,6 +193,7 @@ function inserter(name, icon, base, hand, energy, pickup_position, insert_positi
   })
 end
 
+-- fast inserters
 inserter(
   "fast-long-inserter",
   "__base__/graphics/icons/inserter.png",
@@ -209,6 +210,7 @@ inserter(
   "b-b"
 )
 
+-- express inserters
 inserter(
   "express-inserter",
   "__base__/graphics/icons/inserter.png",
@@ -226,6 +228,22 @@ inserter(
 )
 
 inserter(
+  "express-long-inserter",
+  "__base__/graphics/icons/inserter.png",
+  "long-inserter",
+  "long-inserter",
+  12000,
+  {0, -2},
+  {0, 2.2},
+  "express",
+  false,
+  nil,
+  0.1,
+  0.06,
+  "b-b"
+)
+
+inserter(
   "express-filter-inserter",
   "__base__/graphics/icons/inserter.png",
   "filter-inserter",
@@ -238,5 +256,36 @@ inserter(
   nil,
   0.1,
   0.06,
-  "b-a"
+  "b-c"
+)
+
+inserter(
+  "express-stack-inserter",
+  "__base__/graphics/icons/inserter.png",
+  "stack-inserter",
+  "stack-inserter",
+  12000,
+  {0, -1},
+  {0, 1.2},
+  "express",
+  true,
+  nil,
+  0.1,
+  0.06,
+  "b-c"
+)
+inserter(
+  "express-stack-filter-inserter",
+  "__base__/graphics/icons/inserter.png",
+  "stack-inserter",
+  "stack-inserter",
+  12000,
+  {0, -1},
+  {0, 1.2},
+  "express",
+  true,
+  1,
+  0.1,
+  0.06,
+  "b-c"
 )
