@@ -67,32 +67,32 @@ data.raw["recipe"]["effectivity-module-3"].category = "crafting-with-fluid"
 
 
 -- module updates
-data.raw["recipe"]["speed-module"].effect =   { speed = {bonus = 0.3}, consumption = {bonus = 0.6}}
-data.raw["recipe"]["speed-module-2"].effect = { speed = {bonus = 0.5}, consumption = {bonus = 0.7}}
-data.raw["recipe"]["speed-module-3"].effect = { speed = {bonus = 1}, consumption = {bonus = 1}}
+data.raw["module"]["speed-module"].effect =   { speed = {bonus = 0.3}, consumption = {bonus = 0.6}}
+data.raw["module"]["speed-module-2"].effect = { speed = {bonus = 0.5}, consumption = {bonus = 0.7}}
+data.raw["module"]["speed-module-3"].effect = { speed = {bonus = 1}, consumption = {bonus = 1}}
 
-data.raw["recipe"]["productivity-module"].effect = {
+data.raw["module"]["productivity-module"].effect = {
   productivity = {bonus = 0.06},
   consumption = {bonus = 0.6},
   pollution = {bonus = 0.075},
   speed = {bonus = -0.15}
 }
-data.raw["recipe"]["productivity-module-2"].effect = {
+data.raw["module"]["productivity-module-2"].effect = {
   productivity = {bonus = 0.1},
   consumption = {bonus = 0.8},
   pollution = {bonus = 0.1},
   speed = {bonus = -0.15}
 }
-data.raw["recipe"]["productivity-module-3"].effect = {
+data.raw["module"]["productivity-module-3"].effect = {
   productivity = {bonus = 0.2},
   consumption = {bonus = 1},
   pollution = {bonus = 0.1},
   speed = {bonus = -0.15}
 }
 
-data.raw["recipe"]["effectivity-module"].effect =   { consumption = {bonus = -0.4}}
-data.raw["recipe"]["effectivity-module-2"].effect = { consumption = {bonus = -0.6}}
-data.raw["recipe"]["effectivity-module-3"].effect = { consumption = {bonus = -0.8}}
+data.raw["module"]["effectivity-module"].effect =   { consumption = {bonus = -0.4}}
+data.raw["module"]["effectivity-module-2"].effect = { consumption = {bonus = -0.6}}
+data.raw["module"]["effectivity-module-3"].effect = { consumption = {bonus = -0.8}}
 
 -- tech updates
 data.raw["technology"]["modules"].effects = {
@@ -109,3 +109,32 @@ data.raw["technology"]["modules"].effects = {
     recipe = "productivity-module-0"
   },
 }
+
+-- item updates
+data.raw["item"]["beacon"].order = "z-a"
+data.raw["item"]["beacon"].subgroup = "production-machine"
+
+data.raw["module"]["speed-module"].order = "b-a"
+data.raw["module"]["speed-module-2"].order = "b-b"
+data.raw["module"]["speed-module-3"].order = "b-c"
+
+data.raw["module"]["productivity-module"].order = "b-a"
+data.raw["module"]["productivity-module-2"].order = "b-b"
+data.raw["module"]["productivity-module-3"].order = "b-c"
+
+data.raw["module"]["effectivity-module"].order = "b-a"
+data.raw["module"]["effectivity-module-2"].order = "b-b"
+data.raw["module"]["effectivity-module-3"].order = "b-c"
+
+
+data.raw["module"]["speed-module"].subgroup = "speed-modules"
+data.raw["module"]["speed-module-2"].subgroup = "speed-modules"
+data.raw["module"]["speed-module-3"].subgroup = "speed-modules"
+
+data.raw["module"]["productivity-module"].subgroup = "productivity-modules"
+data.raw["module"]["productivity-module-2"].subgroup = "productivity-modules"
+data.raw["module"]["productivity-module-3"].subgroup = "productivity-modules"
+
+data.raw["module"]["effectivity-module"].subgroup = "effectivity-modules"
+data.raw["module"]["effectivity-module-2"].subgroup = "effectivity-modules"
+data.raw["module"]["effectivity-module-3"].subgroup = "effectivity-modules"
