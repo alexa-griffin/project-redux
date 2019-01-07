@@ -61,10 +61,6 @@ data.raw["recipe"]["rocket-control-unit"].ingredients = {
 data.raw["recipe"]["rocket-fuel"].category = "chemistry"
 
 data.raw["recipe"]["science-pack-2"].enabled = false
-data.raw["recipe"]["science-pack-2"].ingredients = {
-  { "assembling-machine-1", 1 },
-  { "steel-plate", 1 }
-}
 
 -- tech updates
 redux.lib.tech.addPrereq("kovarex-enrichment-process", "rocket-fuel")
