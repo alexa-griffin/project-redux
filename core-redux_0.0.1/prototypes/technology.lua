@@ -131,4 +131,57 @@ data:extend({
     },
     order = "e-h"
   },
+
+  -- util stuffs
+  {
+    type = "technology",
+    name = "toolbelt-2",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/toolbelt.png",
+    effects =
+    {
+      {
+        type = "quick-bar-count",
+        modifier = 1
+      }
+    },
+    unit =
+    {
+      count = 200,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1}
+        {"science-pack-3", 1}
+      },
+      time = 30
+    },
+    order = "c-k-m"
+  },
+  {
+    type = "technology",
+    name = "toolbelt-3",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/toolbelt.png",
+    effects =
+    {
+      {
+        type = "quick-bar-count",
+        modifier = 1
+      }
+    },
+    unit =
+    {
+      count = 300,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1}
+        {"science-pack-3", 1}
+        {"high-tech-science-pack", 1}
+      },
+      time = 30
+    },
+    order = "c-k-m"
+  },
 })
