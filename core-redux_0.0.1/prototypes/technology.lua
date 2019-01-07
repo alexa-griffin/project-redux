@@ -145,13 +145,14 @@ data:extend({
         modifier = 1
       }
     },
+    prerequisites = {"advanced-electronics", "toolbelt"},
     unit =
     {
       count = 200,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"science-pack-2", 1},
         {"science-pack-3", 1}
       },
       time = 30
@@ -170,14 +171,15 @@ data:extend({
         modifier = 1
       }
     },
+    prerequisites = {"avant-garde-science", "toolbelt-2"},
     unit =
     {
       count = 300,
       ingredients =
       {
         {"science-pack-1", 1},
-        {"science-pack-2", 1}
-        {"science-pack-3", 1}
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
         {"high-tech-science-pack", 1}
       },
       time = 30
