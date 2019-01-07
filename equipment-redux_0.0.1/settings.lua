@@ -7,7 +7,7 @@ data:extend({
     default_value = 6,
   },
   {
-    type = "int-setting",
+    type = "bool-setting",
     name = "redux-roboport-buff",
     setting_type = "startup",
     default_value = true
