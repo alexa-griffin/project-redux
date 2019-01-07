@@ -2,50 +2,62 @@
 data.raw["recipe"]["speed-module"].ingredients = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
+  {"plastic-bar", 12},
   {"speed-module-0", 3},
 }
 data.raw["recipe"]["productivity-module"].ingredients = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
+  {"plastic-bar", 12},
   {"productivity-module-0", 3},
 }
 data.raw["recipe"]["effectivity-module"].ingredients = {
   {"advanced-circuit", 5},
   {"electronic-circuit", 5},
+  {"plastic-bar", 12},
   {"effectivity-module-0", 3},
 }
 
 data.raw["recipe"]["speed-module-2"].ingredients = {
   {"advanced-circuit", 5},
   {"processing-unit", 5},
+  {"battery", 5},
   {"speed-module", 4},
 }
 data.raw["recipe"]["productivity-module-2"].ingredients = {
   {"advanced-circuit", 5},
   {"processing-unit", 5},
+  {"battery", 5},
   {"productivity-module", 4},
 }
 data.raw["recipe"]["effectivity-module-2"].ingredients = {
   {"advanced-circuit", 5},
   {"processing-unit", 5},
+  {"battery", 5},
   {"effectivity-module", 4},
 }
 
 data.raw["recipe"]["speed-module-3"].ingredients = {
   { "advanced-circuit", 5 },
   { "processing-unit", 5 },
+  { "electronic-circuit", 10 },
+  { "copper-cable", 60 },
   { type = "fluid", name = "sulfuric-acid", amount = 20 },
   { "speed-module-2", 5 },
 }
 data.raw["recipe"]["productivity-module-3"].ingredients = {
   { "advanced-circuit", 5 },
   { "processing-unit", 5 },
+  { "electronic-circuit", 10 },
+  { "copper-cable", 60 },
   { type = "fluid", name = "sulfuric-acid", amount = 20 },
   { "productivity-module-2", 5 },
 }
 data.raw["recipe"]["effectivity-module-3"].ingredients = {
   { "advanced-circuit", 5 },
   { "processing-unit", 5 },
+  { "electronic-circuit", 10 },
+  { "copper-cable", 60 },
   { type = "fluid", name = "sulfuric-acid", amount = 20 },
   { "effectivity-module-2", 5 },
 }

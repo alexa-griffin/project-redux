@@ -43,4 +43,8 @@ data.raw["assembling-machine"]["centrifuge"].crafting_speed = 1
 data.raw["assembling-machine"]["assembling-machine-2"].crafting_speed = 1
 data.raw["assembling-machine"]["assembling-machine-3"].crafting_speed = 1.5
 
+data.raw["assembling-machine"]["assembling-machine-1"].ingredient_count = 10
+data.raw["assembling-machine"]["assembling-machine-2"].ingredient_count = 10
+data.raw["assembling-machine"]["assembling-machine-3"].ingredient_count = 10
+
 data.raw["beacon"]["beacon"].energy_usage = "240kW"
