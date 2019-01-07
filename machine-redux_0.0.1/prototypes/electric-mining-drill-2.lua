@@ -15,6 +15,7 @@ data:extend({
     name = "electric-mining-drill-2",
     normal =
     {
+      enabled = false,
       energy_required = 2,
       ingredients =
       {
@@ -27,6 +28,7 @@ data:extend({
     },
     expensive =
     {
+      enabled = false,
       energy_required = 2,
       ingredients =
       {

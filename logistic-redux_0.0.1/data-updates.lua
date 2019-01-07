@@ -7,7 +7,7 @@ data.raw["recipe"]["stack-inserter"].ingredients = {
 
 data.raw["recipe"]["stack-filter-inserter"].ingredients = {
   { "advanced-circuit", 5 },
-  { "stacl-inserter", 1 }
+  { "stack-inserter", 1 }
 }
 
 -- thanks to bob
@@ -122,3 +122,17 @@ data.raw["inserter"]["long-handed-inserter"].hand_closed_picture.filename = "__l
 data.raw["inserter"]["long-handed-inserter"].hand_closed_picture.hr_version = "__logistic-redux__/graphics/inserters/long-inserter-hand-closed.png"
 data.raw["inserter"]["long-handed-inserter"].hand_open_picture.filename = "__logistic-redux__/graphics/inserters/long-inserter-hand-open.png"
 data.raw["inserter"]["long-handed-inserter"].hand_open_picture.hr_version = "__logistic-redux__/graphics/inserters/long-inserter-hand-open.png"
+
+
+-- tech updates
+redux.lib.tech.addRecipeUnlock("logistics-3", "express-inserter")
+redux.lib.tech.addRecipeUnlock("logistics-3", "express-long-inserter")
+redux.lib.tech.addRecipeUnlock("logistics-3", "express-filter-inserter")
+
+redux.lib.tech.addRecipeUnlock("logistics-2", "fast-long-inserter")
+redux.lib.tech.addRecipeUnlock("logistics-2", "fast-inserter")
+redux.lib.tech.addRecipeUnlock("logistics-2", "fast-filter-inserter")
+
+redux.lib.tech.removeRecipeUnlock("automation", "long-handed-inserter")
+
+redux.lib.tech.replaceRecipeUnlock("logistics", "fast-inserter", "long-handed-inserter")

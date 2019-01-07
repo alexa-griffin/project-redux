@@ -8,3 +8,4 @@ redux.logistics.settings = {
 require("prototypes.item-groups")
 require("prototypes.inserter")
 require("prototypes.recipe")
+require("prototypes.technology")
