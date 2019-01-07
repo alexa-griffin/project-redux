@@ -31,6 +31,12 @@ data.raw["lab"]["lab"].module_specification = {
   module_info_icon_shift = {0, 0.9}
 }
 
+data.raw["beacon"]["beacon"].module_specification = {
+  module_slots = 4,
+  module_info_icon_shift = {0, 0.5},
+  module_info_multi_row_initial_height_modifier = -0.3
+}
+
 data.raw["assembling-machine"]["chemical-plant"].crafting_speed = 1
 data.raw["assembling-machine"]["oil-refinery"].crafting_speed = 1
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 1
