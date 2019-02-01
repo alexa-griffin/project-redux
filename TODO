@@ -22,7 +22,7 @@
 - [x] figure out module stuffs
 - [x] make utility lib
 - [x] migrate existing data to util lib
-- [ ] figure out the module ordering
+- [x] figure out the module ordering
 - [x] do module cfg
 - [x] make equipment stuffs
 - [x] make belt speeds be 15 -> 30 -> 45 -> 60 & match inserters to that
@@ -33,7 +33,7 @@
 - [x] change nightvision equipment icon
 - [x] do equipment cfg
 - [x] make map presets
-- [ ] do settings cfg for equipment
+- [x] do settings cfg for equipment
 - [x] make beacon mk2 graphics
 - [x] make mining drill mk2 graphics
 - [x] make color scheme for inserters
@@ -51,7 +51,7 @@
 - [x] make inserter icons
 - [x] do cfg for logistics
 - [x] figure out recipes for inserters
-
+- [ ] nuclear bots
 
 - [ ] publish machine redux
 - [ ] publish logistic redux
@@ -60,3 +60,12 @@
 - [ ] publish module redux
 - [ ] publish core redux
 - [ ] publish storage redux
+
+# testing todos:
+- [ ] take out roket silo unlocks
+- [ ] update battery icons graphics
+- [ ] add filters to filter inserters
+- [ ] remove module prereqs for power armor 2
+- [ ] change modules to be prereqed to basic electronics and logi science
+
+# other things?

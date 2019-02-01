@@ -48,3 +48,5 @@ data.raw["assembling-machine"]["assembling-machine-2"].ingredient_count = 10
 data.raw["assembling-machine"]["assembling-machine-3"].ingredient_count = 10
 
 data.raw["beacon"]["beacon"].energy_usage = "240kW"
+
+data.raw["mining-drill"]["electric-mining-drill"].mining_speed = 1
